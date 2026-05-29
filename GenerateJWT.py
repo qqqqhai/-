@@ -26,4 +26,4 @@ def get_token():
     }
 
     encoded_jwt = jwt.encode(payload, private_key, algorithm='EdDSA', headers=headers)
-    return encoded_jwtencoded_jwt
+    return encoded_jwt
